@@ -1,0 +1,23 @@
+.container {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+}
+
+.btn {
+  padding: 0.5rem 1.5rem;
+  color: #fff;
+  background-color: #000;
+  font-size: 0.8rem;
+  border-radius: 8px;
+  cursor: pointer;
+  display: block;
+  width: fit-content;
+}
+
+.btn-invisible {
+  display: none;
+}
